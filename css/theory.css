@@ -1,0 +1,68 @@
+aside {
+    width: 25%; /* Ajuste conforme necessário */
+    padding: 15px;
+    margin: 0 0 15px 15px; /* Espaço à esquerda */
+    float: right; /* Mantém o índice à direita */
+    background-color: #BBA386;
+    border-radius: 12px;
+}
+
+article {
+    overflow: hidden; /* Evita problemas com o float */
+}
+
+article p {
+    text-align: justify; /* Para margens mais equilibradas */
+}
+
+aside h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+aside ol, aside ul {
+    padding-left: 20px;
+}
+
+aside a {   
+    color: black; 
+    text-decoration: none;
+}
+
+aside a:hover {
+    color: #CBCDA7;
+    text-decoration: underline;
+}
+
+footer a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+  
+footer a:hover {
+    background-color: #CBCDA7;
+    color: black;
+}
+  
+footer .previous {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    float: left;
+    background-color: #BBA386;
+    color: black;
+    border-radius: 5px;
+}
+  
+footer .next {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    float: right;
+    background-color: #BBA386;
+    color: black;
+    border-radius: 5px;
+  }
+  
+footer .round {
+    border-radius: 50%;
+  }

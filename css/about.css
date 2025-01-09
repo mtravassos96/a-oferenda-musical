@@ -1,0 +1,17 @@
+#selfie {
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+#contatos a {
+    color: indigo;
+    text-decoration: none;
+}
+
+#contatos a:hover {
+    color: crimson;
+}
+
+address {
+    display: inline;
+}

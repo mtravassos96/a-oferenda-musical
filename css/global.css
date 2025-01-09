@@ -1,0 +1,74 @@
+/* 
+    Color scheme
+
+    Main color: #CDBCA7
+    Monochromatic: #BBA386
+    Complementary: #A7B8CD
+    Analogous 1: #CBCDA7
+    Analogous 2: #CDA9A7
+    Triadic 1: #A7CDBC
+    Triadic 2: #BCA7CD
+    Tetradic 1: #A7CDA9
+    Tetradic 2: #A7B8CD
+    Tetradic 3: #CDA7CB
+
+*/
+
+body{            
+    background-color: #CDBCA7;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 a{
+    text-decoration: none;
+    color: black;
+}
+
+#menu ul{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #BBA386;
+}
+
+#menu li{
+    float: left;
+    border-right: 1px solid white;
+}
+
+#menu li:last-child {
+    border-right: none;
+}
+
+#menu li a{
+    display: block;            
+    color: white;        
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#menu li a:hover:not(.active) {
+    color: black;
+}
+
+#menu .active {
+    background-color: black;
+}
+
+.button {
+    background-color: burlywood;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}

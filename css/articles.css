@@ -1,0 +1,90 @@
+h2 {
+    text-align: center;
+}
+
+.imgtopbot {
+    text-align: center;
+}
+
+blockquote {
+    font-size: 13px;
+}
+
+picture {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+p {    
+    text-align: justify;
+}
+
+article {
+    margin-top: 113px;
+    margin-bottom: 75px;
+    margin-right: 113px;
+    margin-left: 75px;
+}
+
+.tooltip {   
+    margin: 0%;
+    position: relative;
+    display: inline;
+    border-bottom: 1px dotted black;    
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 200px;    
+    background-color: black;
+    color: antiquewhite;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -100px;
+
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+footer a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+  
+footer a:hover {
+    background-color: #CBCDA7;
+    color: black;
+}
+  
+footer .previous {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    float: left;
+    background-color: #BBA386;
+    color: black;
+    border-radius: 5px;
+}
