@@ -5,6 +5,51 @@
     }
 }
 
+#selfie {
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+#contatos a {
+    color: indigo;
+    text-decoration: none;
+}
+
+#contatos a:hover {
+    color: crimson;
+}
+
+address {
+    display: inline;
+}
+
+.button {
+    border: none;
+    border-radius: 5px;    
+    background-color: #BBA386;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button a {
+    text-decoration: none;
+    color: black;
+}
+
+.button:hover {
+    background-color: #A7B8CD;
+    color: white;
+}
+
+.button:hover a{
+    color: white;
+}
+
 footer {
     background-color: #BBA386; /* Monochromatic */
     color: #FFFFFF;
