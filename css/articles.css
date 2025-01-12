@@ -11,9 +11,15 @@ blockquote {
 }
 
 picture {
+    width: 100%; 
+    text-align: center; 
+}
+
+picture, img {
     display: block;
-    margin: auto;
-    width: 50%;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
 }
 
 p {    

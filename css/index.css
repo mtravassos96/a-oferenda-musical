@@ -10,13 +10,19 @@
     margin-top: 20px;
 }
 
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
 #contatos a {
-    color: indigo;
+    color: black;
     text-decoration: none;
 }
 
 #contatos a:hover {
-    color: crimson;
+    color: #CDA7CB;
 }
 
 address {
@@ -37,6 +43,8 @@ address {
 }
 
 .button a {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
     text-decoration: none;
     color: black;
 }
