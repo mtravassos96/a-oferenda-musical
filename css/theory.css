@@ -30,7 +30,7 @@ aside a {
 }
 
 aside a:hover {
-    color: #CBCDA7;
+    color: #A7B8CD;
     text-decoration: underline;
 }
 
@@ -41,7 +41,7 @@ footer a {
 }
   
 footer a:hover {
-    background-color: #CBCDA7;
+    background-color: #A7B8CD;
     color: black;
 }
   

@@ -29,7 +29,7 @@ address {
     display: inline;
 }
 
-.button {
+.previous {
     border: none;
     border-radius: 5px;    
     background-color: #BBA386;
@@ -40,21 +40,23 @@ address {
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
+    text-decoration: none;
+    color: black;
 }
 
-.button a {
+.previous a {
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     text-decoration: none;
     color: black;
 }
 
-.button:hover {
+.previous:hover {
     background-color: #A7B8CD;
     color: white;
 }
 
-.button:hover a{
+.previous:hover a{
     color: white;
 }
 
