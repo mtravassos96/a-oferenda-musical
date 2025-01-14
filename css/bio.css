@@ -42,13 +42,8 @@ address {
     cursor: pointer;
     text-decoration: none;
     color: black;
-}
-
-.previous a {
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
-    text-decoration: none;
-    color: black;
 }
 
 .previous:hover {
