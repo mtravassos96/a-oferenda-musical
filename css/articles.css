@@ -8,6 +8,11 @@ article {
     margin-bottom: 70px;
 }
 
+section {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
 h1, h2 {
     text-align: center;
 }
