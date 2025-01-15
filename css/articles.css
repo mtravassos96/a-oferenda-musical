@@ -1,4 +1,14 @@
-h2 {
+main {
+    text-align: justify;
+    margin: auto;
+    padding: 10px;
+}
+
+article {
+    margin-bottom: 70px;
+}
+
+h1, h2 {
     text-align: center;
 }
 
@@ -22,17 +32,6 @@ picture, img {
     height: auto;
 }
 
-p {    
-    text-align: justify;
-}
-
-article {
-    margin-top: 113px;
-    margin-bottom: 75px;
-    margin-right: 113px;
-    margin-left: 75px;
-}
-
 .tooltip {   
     margin: 0%;
     position: relative;
@@ -46,7 +45,7 @@ article {
     background-color: black;
     color: antiquewhite;
     text-align: center;
-    padding: 5px 0;
+    padding: 5px 5px;
     border-radius: 6px;
 
     position: absolute;

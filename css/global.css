@@ -14,12 +14,24 @@
 
 */
 
-body{            
-    background-color: #CDBCA7;
+* {
     font-family: 'Times New Roman', Times, serif;
 }
 
-h1 a{
+body{            
+    background-color: #CDBCA7;
+}
+
+header {
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+header a {
+    font-size: 2em;    
+    font-weight: bold;
     text-decoration: none;
     color: black;
 }
@@ -32,7 +44,7 @@ h1 a{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #BBA386;
+    background-image: linear-gradient(to right, #BBA386, #bba38600);
 }
 
 #menu li{

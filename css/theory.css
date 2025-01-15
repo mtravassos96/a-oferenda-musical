@@ -46,8 +46,8 @@ footer a:hover {
 }
   
 footer .previous {
-    margin-top: 20px;
-    margin-bottom: 5px;
+    margin-top: 50px;
+    margin-bottom: 10px;
     float: left;
     background-color: #BBA386;
     color: black;
@@ -55,8 +55,8 @@ footer .previous {
 }
   
 footer .next {
-    margin-top: 20px;
-    margin-bottom: 5px;
+    margin-top: 50px;
+    margin-bottom: 10px;
     float: right;
     background-color: #BBA386;
     color: black;
