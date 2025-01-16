@@ -79,22 +79,24 @@ picture, img {
     opacity: 1;
 }
 
-footer a {
+#bottom-buttons {
+    margin-top: 1%;
+    margin-bottom: 5%;
+}
+
+#bottom-buttons .previous {
+    float: left;
+    border-radius: 8%;
+    background-color: #BBA386;
+    color: black;
+}
+
+#bottom-buttons a {
     text-decoration: none;
     display: inline-block;
     padding: 8px 16px;
 }
-  
-footer a:hover {
+
+#bottom-buttons a:hover {
     background-color: #A7B8CD;
-    color: black;
-}
-  
-footer .previous {
-    margin-top: 20px;
-    margin-bottom: 5px;
-    float: left;
-    background-color: #BBA386;
-    color: black;
-    border-radius: 5px;
 }

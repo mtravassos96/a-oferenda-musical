@@ -34,35 +34,34 @@ aside a:hover {
     text-decoration: underline;
 }
 
-footer a {
+
+#bottom-buttons {
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+#bottom-buttons .previous {
+    margin-left: 20%;
+    float: left;
+    border-radius: 8%;
+    background-color: #BBA386;
+    color: black;
+}
+
+#bottom-buttons .next {
+    margin-right: 20%;
+    float: right;
+    border-radius: 8%;
+    background-color: #BBA386;
+    color: black;
+}
+
+#bottom-buttons a {
     text-decoration: none;
     display: inline-block;
     padding: 8px 16px;
 }
-  
-footer a:hover {
+
+#bottom-buttons a:hover {
     background-color: #A7B8CD;
-    color: black;
 }
-  
-footer .previous {
-    margin-top: 50px;
-    margin-bottom: 10px;
-    float: left;
-    background-color: #BBA386;
-    color: black;
-    border-radius: 5px;
-}
-  
-footer .next {
-    margin-top: 50px;
-    margin-bottom: 10px;
-    float: right;
-    background-color: #BBA386;
-    color: black;
-    border-radius: 5px;
-  }
-  
-footer .round {
-    border-radius: 50%;
-  }
