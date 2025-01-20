@@ -5,6 +5,10 @@
     }
 }
 
+main {
+    margin-left: 1%;
+}
+
 #selfie {
     border-radius: 8px;
     margin-top: 20px;
