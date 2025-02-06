@@ -1,32 +1,64 @@
-@media (max-width: 768px) {
-    footer {
-        font-size: 0.8rem;
-        padding: 15px 5px;
-    }
-}
-
-#selfie {
-    border-radius: 8px;
-    margin-top: 20px;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
+* {
+    box-sizing: border-box;
     margin: 0;
+    padding: 0;
 }
 
-#contatos a {
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header {
+    padding: 80px;
+    text-align: center;
+    background: #CDBCA7;
     color: black;
+}
+
+.header h1 {
+    font-size: 40px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #BBA386;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
     text-decoration: none;
 }
 
-#contatos a:hover {
-    color: #A7B8CD;
+.navbar a.right {
+    float: right
 }
 
-address {
-    display: inline;
+.navbar a:hover {
+    background-color: #A7B8CD;
+    color: black;
+}
+
+@media screen and (max-width: 400px) {
+    .navbar a {
+      float: none;
+      width: 100%;
+    }
+}
+
+.main {
+    padding: 20px;
+}
+
+.main h2 {
+    margin-bottom: 20px;
+}
+
+.main h3, .main p {
+    margin: 20px 0;
 }
 
 .previous {
@@ -50,6 +82,22 @@ address {
     color: white;
 }
 
-.previous:hover a{
+.previous:hover a {    
     color: white;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #BBA386;
+}
+
+.footer p {
+    margin-bottom: 5px;
+}
+
+@media screen and (max-width: 700px) {
+    .row {
+      flex-direction: column;
+    }
 }

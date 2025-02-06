@@ -1,13 +1,94 @@
-@media (max-width: 768px) {
-    footer {
-        font-size: 0.8rem;
-        padding: 15px 5px;
+/* 
+    Color scheme
+
+    Main color: #CDBCA7
+    Monochromatic: #BBA386
+    Complementary: #A7B8CD
+    Analogous 1: #CBCDA7
+    Analogous 2: #CDA9A7
+    Triadic 1: #A7CDBC
+    Triadic 2: #BCA7CD
+    Tetradic 1: #A7CDA9
+    Tetradic 2: #A7B8CD
+    Tetradic 3: #CDA7CB
+
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header {
+    padding: 80px;
+    text-align: center;
+    background: #CDBCA7;
+    color: black;
+}
+
+.header h1 {
+    font-size: 40px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #BBA386;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a.right {
+    float: right
+}
+
+.navbar a:hover {
+    background-color: #A7B8CD;
+    color: black;
+}
+
+@media screen and (max-width: 400px) {
+    .navbar a {
+      float: none;
+      width: 100%;
     }
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row h2, .row p {
+    margin-bottom: 20px;
+}
+
+.side {
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+.main {
+    flex: 70%;
+    padding: 20px;
+    background-color: white;
 }
 
 #selfie {
     border-radius: 8px;
-    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 ul {
@@ -43,6 +124,7 @@ address {
 }
 
 .button a {
+    font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     text-decoration: none;
     color: black;
@@ -55,4 +137,20 @@ address {
 
 .button:hover a{
     color: white;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #BBA386;
+}
+
+.footer p {
+    margin-bottom: 5px;
+}
+
+@media screen and (max-width: 700px) {
+    .row {
+      flex-direction: column;
+    }
 }
