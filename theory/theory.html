@@ -3,28 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/global.css">
     <link rel="stylesheet" href="../css/theory.css">
     <title>Teoria Musical</title>
 </head>
 <body>
-    <header id="top">
-        <a href="../index.html">A Oferenda Musical</a>
-    </header>
+    <div class="header">
+        <h1>A Oferenda Musical</h1>
+    </div>
 
-    <nav id="menu">
-        <ul>
-            <li><a href="../index.html">Início</a></li>
-            <li><a href="../guitar/guitar.html">Guitarra</a></li>
-            <li><a class="active" href="theory/theory.html">Teoria Musical</a></li>
-            <li><a href="../articles/articles.html">Artigos</a></li>
-            <li><a href="#">Loja</a></li>             
-        </ul>        
-    </nav>   
-
-    <main>
-        <article>
-            <h1>O que é Teoria Musical?</h1>
+    <div class="navbar">
+        <a href="../index.html">Início</a>
+        <a href="../guitar/guitar.html">Guitarra</a>
+        <a href="theory/theory.html">Teoria Musical</a>
+        <a href="../articles/articles.html">Artigos</a>
+        <a href="https://www.sheetmusicplus.com/en/category/arrangeme/172/matheus-travassos/" target="_blank" class="right">Loja</a>
+    </div>   
+    
+    <div class="row">
+        <div class="main">
+            <h2>O que é Teoria Musical?</h2>
             <p>
                 Aquilo que iremos tratar por Teoria Musical aqui é tudo aquilo que envolve grafia musical e o seu significado (notas, valores, claves, compassos...), além dos sistemas musicais (intervalos, escalas, acordes, arpejos...)
             </p>             
@@ -45,11 +42,12 @@
                 Em seguida, veja este outro vídeo da mesma música, mas de um arranjo feito por mim:
             </p>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/HP3zL_3GKpM?si=bUn5IvI8DZXDqTvn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </article>
-    </main>
 
-    <!--
-        <aside>
+            <div class="bottom-buttons">
+                <a href="music-elements.html" rel="next" class="next">Próximo &raquo;</a>
+            </div>
+        </div>
+        <div class="side">
             <h2>Índice</h2>
             <ol>
                 <li>Introdução
@@ -74,27 +72,19 @@
             <ul>
                 <li><a href="bibliography.html">Referências bibliográficas</a></li>
             </ul>
-        </aside>
-    -->
-
-    <div id="bottom-buttons">
-        <a href="music-elements.html" rel="next" class="next">Próximo &raquo;</a>
+        </div>
     </div>
 
-    <footer>        
-        <div id="licenses">
-            <div class="container">
-                <p>
-                    Código licenciado sob a <a href="https://opensource.org/licenses/MIT" target="_blank">MIT License</a>.
-                </p>
-                <p>
-                    © 2024 Matheus Travassos. Todo o conteúdo está protegido sob a licença <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt_BR" target="_blank">CC BY-NC-SA 4.0</a>.
-                </p>
-                <p>
-                    Design e desenvolvimento: <a href="https://github.com/mtravassos96" target="_blank">GitHub</a>.
-                </p>
-            </div>
-        </div>
-    </footer>
+    <div class="footer">
+        <p>
+            Código licenciado sob a <a href="https://opensource.org/licenses/MIT" target="_blank">MIT License</a>.
+        </p>
+        <p>
+            © 2024 Matheus Travassos. Todo o conteúdo está protegido sob a licença <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt_BR" target="_blank">CC BY-NC-SA 4.0</a>.
+        </p>
+        <p>
+            Design e desenvolvimento: <a href="https://github.com/mtravassos96" target="_blank">GitHub</a>.
+        </p>
+    </div>
 </body>
 </html>

@@ -66,17 +66,95 @@ body {
 }
 
 .main {
-    padding: 20px;
+    padding: 3.125em;
 }
 
-h2, h3, h4, h5, ul, p {
-    margin-bottom: 20px;
+.tooltip {   
+    margin: 0%;
+    position: relative;
+    display: inline;
+    border-bottom: 1px dotted black;    
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 200px;    
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px 5px;
+    border-radius: 6px;
+
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -100px;
+
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+blockquote {
+    font-size: 13px;
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+h2 {
+    margin-bottom: 0.83em;
+}
+
+h3 {
+    margin-bottom: 1em;
+}
+
+h4 {
+    margin-bottom: 1.33em;
+}
+
+h5 {
+    margin-bottom: 1.67em;
+}
+
+p {
+    margin-bottom: 1em;
 }
 
 .footer {
     padding: 20px;
     text-align: center;
     background-color: #BBA386;
+}
+
+.footer a {
+    color: #3a4149;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer a:hover {
+    color: #CDA9A7; /* Analogous 2 */
+    text-decoration: underline;
 }
 
 .footer p {
