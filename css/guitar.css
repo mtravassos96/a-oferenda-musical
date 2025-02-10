@@ -65,12 +65,25 @@ body {
     }
 }
 
-.main {
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row h2, .row p {
+    margin-bottom: 20px;
+}
+
+.side {
+    flex: 30%;
+    background-color: #f1f1f1;
     padding: 20px;
 }
 
-h2, h3, h4, h5, ul, p {
-    margin-bottom: 20px;
+.main {
+    flex: 70%;
+    padding: 20px;
+    background-color: white;
 }
 
 .footer {
@@ -81,4 +94,10 @@ h2, h3, h4, h5, ul, p {
 
 .footer p {
     margin-bottom: 5px;
+}
+
+@media screen and (max-width: 700px) {
+    .row {
+      flex-direction: column;
+    }
 }
