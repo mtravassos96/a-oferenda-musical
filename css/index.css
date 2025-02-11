@@ -25,14 +25,14 @@ body {
 }
 
 .header {
-    padding: 80px;
+    padding: 2.5em;
     text-align: center;
     background: #CDBCA7;
     color: black;
 }
 
 .header h1 {
-    font-size: 40px;
+    font-size: 2.5em;
 }
 
 .navbar {
@@ -45,7 +45,7 @@ body {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 20px;
+    padding: 0.875em 1.25em;
     text-decoration: none;
 }
 
@@ -84,18 +84,18 @@ p {
 .side {
     flex: 30%;
     background-color: #f1f1f1;
-    padding: 20px;
+    padding: 1.25em;
 }
 
 .main {
     flex: 70%;
-    padding: 20px;
+    padding: 1.25em;
     background-color: white;
 }
 
 #selfie {
-    border-radius: 8px;
-    margin-bottom: 10px;
+    border-radius: 0.5em;
+    margin-bottom: 0.625em;
 }
 
 ul {
@@ -119,13 +119,13 @@ address {
 
 .button {
     border: none;
-    border-radius: 5px;    
+    border-radius: 0.3125em;    
     background-color: #BBA386;
-    padding: 15px 32px;
+    padding: 0.9375em 2em;
     text-align: center;
     display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
+    font-size: 1em;
+    margin: 0.25em 0.125em;
     transition-duration: 0.4s;
     cursor: pointer;
 }
@@ -147,7 +147,7 @@ address {
 }
 
 .footer {
-    padding: 20px;
+    padding: 1.25em;
     text-align: center;
     background-color: #BBA386;
 }
@@ -164,7 +164,7 @@ address {
 }
 
 .footer p {
-    margin-bottom: 5px;
+    margin-bottom: 0.3125em;
 }
 
 @media screen and (max-width: 700px) {
