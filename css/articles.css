@@ -25,14 +25,14 @@ body {
 }
 
 .header {
-    padding: 80px;
+    padding: 5em;
     text-align: center;
     background: #CDBCA7;
     color: black;
 }
 
 .header h1 {
-    font-size: 40px;
+    font-size: 2.5em;
 }
 
 .navbar {
@@ -45,7 +45,7 @@ body {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 20px;
+    padding: 0.875em 1.25em;
     text-decoration: none;
 }
 
@@ -78,18 +78,18 @@ body {
 
 .tooltip .tooltiptext {
     visibility: hidden;
-    width: 200px;    
+    width: 12.5em;    
     background-color: black;
     color: white;
     text-align: center;
-    padding: 5px 5px;
-    border-radius: 6px;
+    padding: 0.3125em 0.3125em;
+    border-radius: 0.375em;
 
     position: absolute;
     z-index: 1;
     bottom: 125%;
     left: 50%;
-    margin-left: -100px;
+    margin-left: -6.25em;
 
     opacity: 0;
     transition: opacity 0.3s;
@@ -100,8 +100,8 @@ body {
     position: absolute;
     top: 100%;
     left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
+    margin-left: -0.3125em;
+    border-width: 0.3125em;
     border-style: solid;
     border-color: black transparent transparent transparent;
 }
@@ -112,12 +112,12 @@ body {
 }
 
 blockquote {
-    font-size: 13px;
+    font-size: 0.8125em;
     display: block;
     margin-top: 1em;
     margin-bottom: 1em;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 2.5em;
+    margin-right: 2.5em;
 }
 
 h2 {
@@ -141,7 +141,7 @@ p {
 }
 
 .footer {
-    padding: 20px;
+    padding: 1.25em;
     text-align: center;
     background-color: #BBA386;
 }
@@ -158,5 +158,5 @@ p {
 }
 
 .footer p {
-    margin-bottom: 5px;
+    margin-bottom: 0.3125em;
 }
